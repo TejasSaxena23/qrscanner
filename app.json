@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "QrScanner",
-    "slug": "QrScanner",
+    "slug": "Qr-Scanner",
+    "description": "This is a basic Qr Scanner.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.tejassaxena.QrScanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "84c092dc-5e06-4c55-94c5-a45ce83a76ae"
+      }
     }
   }
 }
